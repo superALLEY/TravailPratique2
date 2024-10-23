@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Unidirectional App</string>
+    <string name="welcome_message">Hello %1$s, welcome to the Mobile 1 course</string>
+</resources>

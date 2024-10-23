@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1: What is the capital of France?" />
+
+        <RadioGroup
+            android:id="@+id/questionGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1: Paris" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2: London" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 3: Rome" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 4: Berlin" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2: What is the largest planet in our solar system?" />
+
+        <RadioGroup
+            android:id="@+id/questionGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1: Earth" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2: Jupiter" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 3: Mars" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 4: Saturn" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3: What is the chemical symbol for water?" />
+
+        <RadioGroup
+            android:id="@+id/questionGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1: CO2" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2: H2O" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 3: O2" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 4: NaCl" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 4: Who wrote 'Romeo and Juliet'?" />
+
+        <RadioGroup
+            android:id="@+id/questionGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1: Charles Dickens" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2: Mark Twain" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 3: William Shakespeare" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 4: Jane Austen" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 5: What is the powerhouse of the cell?" />
+
+        <RadioGroup
+            android:id="@+id/questionGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1: Nucleus" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2: Mitochondria" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 3: Ribosome" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 4: Endoplasmic Reticulum" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
